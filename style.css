@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #666;
+    font-size: 2em;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.number{
+    font-size: 2em;
+    margin: 0 20px;
+    color: #333;
+}
+.decre-button{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 64px;
+    width: 64px;
+    height: 64px;
+    font-size: 3rem;
+}
+.decre-button:hover{
+    background-color: #d32f2f;
+}
+.incre-buttton{
+    background-color: #4b59aa;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 64px;
+    width: 64px;
+    height: 64px;
+    font-size: 3rem;
+}
+.incre-buttton:hover{
+    background-color: #38458e;
+}
+.reset-button{
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 16px;
+    width: 160px;
+    height: 64px;
+    margin: 24px auto;
+    display: block;
+}
