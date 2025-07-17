@@ -66,3 +66,6 @@ h1 {
     margin: 24px auto;
     display: block;
 }
+.reset-button:hover{
+    background-color: #ec971f;
+}
